@@ -8,7 +8,7 @@ const Contact = () => {
       <h3>Oleksandra Rychka</h3>
       <div className="contactIcons">
         <a href="https://github.com/sashadmii" target="_blank">
-          <img src="../../../public/images/icons/contacts/github.svg" />
+          <img src="./images/icons/contacts/github.svg" />
         </a>
         <a href="https://www.linkedin.com/in/oleksandrarychka/" target="_blank">
           <img src="../../../public/images/icons/contacts/linkedin.svg" />
