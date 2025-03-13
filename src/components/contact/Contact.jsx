@@ -11,13 +11,13 @@ const Contact = () => {
           <img src="./images/icons/contacts/github.svg" />
         </a>
         <a href="https://www.linkedin.com/in/oleksandrarychka/" target="_blank">
-          <img src="../../../public/images/icons/contacts/linkedin.svg" />
+          <img src="./images/icons/contacts/linkedin.svg" />
         </a>
         <a href="https://t.me/sasha_dmii" target="_blank">
-          <img src="../../../public/images/icons/contacts/telegram.svg" />
+          <img src="./images/icons/contacts/telegram.svg" />
         </a>
         <a href="mailto:alexandra.rychka@gmail.com" target="_blank">
-          <img src="../../../public/images/icons/contacts/gmail.svg" />
+          <img src="./images/icons/contacts/gmail.svg" />
         </a>
       </div>
     </section>
