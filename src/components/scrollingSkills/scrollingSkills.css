@@ -1,0 +1,69 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 3.125rem;
+}
+
+.skills {
+  display: flex;
+  gap: 2rem;
+  padding-inline-start: 0;
+}
+
+.skill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 5rem;
+  width: 5rem;
+  background-color: #34495e;
+  border-radius: 50%;
+
+  position: relative;
+  z-index: 0;
+  overflow: hidden;
+  padding: 12px;
+}
+
+.skill img {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.skill::before {
+  content: '';
+  position: absolute;
+  z-index: -2;
+  left: -50%;
+  top: -50%;
+  width: 200%;
+  height: 200%;
+  background-color: #000;
+  background-repeat: no-repeat;
+  background-size: 100% 100%, 50% 50%;
+  background-position: 0 0, 100% 0, 100% 100%, 0 100%;
+  background-image: linear-gradient(to right, yellow, #e43d12);
+  animation: bgRotate 4s linear infinite;
+  border-radius: 50%;
+}
+
+.skill::after {
+  content: '';
+  position: absolute;
+  z-index: -1;
+  left: 3px;
+  top: 3px;
+  width: calc(100% - 6px);
+  height: calc(100% - 6px);
+  background: linear-gradient(#ebe9e1, #ebe9e1);
+  border-radius: 50%;
+}
+
+@keyframes bgRotate {
+  100% {
+    transform: rotate(1turn);
+  }
+}
