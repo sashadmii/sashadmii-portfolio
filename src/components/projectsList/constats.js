@@ -21,12 +21,6 @@ const projects = [
     image: './images/projects/whatToCook.png',
     tech: ['HTML', 'CSS', 'JavaScript', 'React'],
   },
-
-  {
-    name: 'Chuck Norris Jokes',
-    image: './images/projects/whatToCook.png',
-    tech: ['HTML', 'CSS', 'JavaScript'],
-  },
 ];
 
 export default projects;
