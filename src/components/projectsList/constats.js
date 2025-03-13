@@ -1,7 +1,7 @@
 const projects = [
   {
     name: 'Cooking app',
-    image: '../../../public/images/projects/whatToCook.png',
+    image: './images/projects/whatToCook.png',
     tech: [
       'HTML',
       'Tailwind CSS',
@@ -13,18 +13,18 @@ const projects = [
   },
   {
     name: 'Reddit app',
-    image: '../../../public/images/projects/whatToCook.png',
+    image: './images/projects/whatToCook.png',
     tech: ['HTML', 'CSS', 'JavaScript', 'React'],
   },
   {
     name: 'Spotify Jamming Project',
-    image: '../../../public/images/projects/whatToCook.png',
+    image: './images/projects/whatToCook.png',
     tech: ['HTML', 'CSS', 'JavaScript', 'React'],
   },
 
   {
     name: 'Chuck Norris Jokes',
-    image: '../../../public/images/projects/whatToCook.png',
+    image: './images/projects/whatToCook.png',
     tech: ['HTML', 'CSS', 'JavaScript'],
   },
 ];
