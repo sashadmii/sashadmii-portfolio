@@ -5,7 +5,7 @@ import { NotFoundPage } from '../pages/NotFoundPage';
 
 const router = createBrowserRouter([
   {
-    path: '/',
+    path: '/sashadmii-portfolio/',
     element: <HomePage />,
     errorElement: <NotFoundPage />,
   },

@@ -11,7 +11,7 @@ const ScrollingSkills = () => {
           <li key={item} className="skill">
             <div>
               <img
-                src={`/images/icons/${item
+                src={`./images/icons/${item
                   .replace(/[^a-zA-Z]/g, '')
                   .toLowerCase()}.svg`}
                 alt={item}
