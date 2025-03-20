@@ -1,11 +1,11 @@
 const About = () => {
   return (
     <section
-      className="flex flex-col xl:flex-row justify-center items-center mx-4 xl:mx-50 2xl:mx-72 my-20 gap-10"
+      className="flex flex-col xl:flex-row justify-center items-center mx-4 xl:mx-50 2xl:mx-65 my-20 gap-10"
       id="about">
       <img
         src="./images/avatar.jpg"
-        className="rounded-3xl w-80 sm:w-88 md:w-104 lg:w-120 xl:w-sm"
+        className="rounded-3xl w-80 h-fit sm:w-88 md:w-104 lg:w-120 xl:w-sm"
         alt="Avatar"
       />
       <article className="text-center xl:text-left">

@@ -3,9 +3,9 @@ import contactIcons from './constants';
 const Contact = () => {
   return (
     <section
-      className="flex flex-col items-center px-6 sm:px-12 md:px-20 lg:mx-[10rem] xl:mx-[20rem] my-10 text-center"
+      className="flex flex-col items-center px-6 sm:px-12 md:px-20 lg:mx-[10rem] xl:mx-[20rem] mb-10 text-center"
       id="contact">
-      <h2 className="mb-4 text-lg sm:text-xl md:text-2xl">
+      <h2 className="mb-2 text-lg sm:text-xl md:text-2xl">
         Ready to start? Let&rsquo;s talk
       </h2>
 

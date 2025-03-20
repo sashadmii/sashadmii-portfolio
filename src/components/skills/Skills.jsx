@@ -5,7 +5,7 @@ const Skills = () => {
     <section
       className="flex flex-col text-center items-center mx-4 mb-20"
       id="skills">
-      <h2>Skills and Tools</h2>
+      <h2 className="mb-2">Skills and Tools</h2>
       <ul className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 xl:grid-cols-9 gap-7">
         {skills.map((item) => (
           <li
