@@ -4,10 +4,10 @@ import ProjectCard from '../projectCard/ProjectCard';
 const ProjectsList = () => {
   return (
     <section
-      className="flex flex-col items-center mx-4 sm:mx-8 lg:mx-16 xl:mx-24 my-12"
+      className="grid place-items-center mx-4 sm:mx-8 lg:mx-16 xl:mx-24 my-12"
       id="projects">
-      <h2 className="text-2xl sm:text-3xl font-semibold mb-8">Projects</h2>
-      <ul className="flex gap-x-11 justify-center items-center">
+      <h2>Projects</h2>
+      <ul className="grid grid-cols-1 xl:grid-cols-3 gap-5 md:gap-11 w-full">
         {projects.map((project) => (
           <ProjectCard
             key={project.name}
