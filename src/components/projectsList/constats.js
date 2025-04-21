@@ -10,7 +10,7 @@ const projects = [
       'React',
       'Redux',
     ],
-    link: 'https://github.com/sashadmii/what-to-cook-app',
+    link: 'https://sashadmii.github.io/what-to-cook-app/',
     description:
       'An app that helps users find recipes based on the ingredients they have. It provides a user-friendly interface with filtering options to explore different meal ideas. Users can easily discover new recipes and get inspiration for cooking.',
   },
